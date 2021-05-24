@@ -2,7 +2,7 @@
 uses Pacman game as the platform and transforms pacman agent to the intellingnt agent using different AI techniques
 
 
-Search implementation:
+#Search implementation:
 
 Question q1: i used lecture help on doing the depth first search, creates a stack for keeing track of fringe, uses list 
              to keep track of visited spotsoriginally used set() but gave error on later question where mix match of list
@@ -25,7 +25,9 @@ question 5: finding all the corner used a list to track down all the corners, if
             visited corner. When all corners are visited, the search terminates
 
 Question 6: in this problem, on the first try, i tried to use the distance between the points finding absolute value of 
-            sum and difference of two cordinate points as  abs(Xcur - Xcor) + abs(Ycur - Ycur) but this did not work out
+            sum and difference of two cordinate points as 
+            abs(Xcur - Xcor) + abs(Ycur - Ycur)
+            but this did not work out
             and the heuristic was not working at all.
             later had discussions with friends and found we need to use manhattan distance to find the distance between
             points and solve the problem. 
@@ -41,7 +43,7 @@ Question 8: for this problem, two methods are implemented, returning goal state 
             ///program uses dfs even when i ask astar search, why so???????
 
 
-multiagent implementaion:
+#multiagent implementaion:
 
 question 1: Reflex Agent
 	for this question, i took help from the class lecture mostly, but tried to understad the logic
