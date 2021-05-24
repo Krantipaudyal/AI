@@ -2,7 +2,7 @@
 uses Pacman game as the platform and transforms pacman agent to the intellingnt agent using different AI techniques
 
 
-#Search implementation:
+<h1> Search implementation: </h1>
 
 Question q1: i used lecture help on doing the depth first search, creates a stack for keeing track of fringe, uses list 
              to keep track of visited spotsoriginally used set() but gave error on later question where mix match of list
